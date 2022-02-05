@@ -2176,3 +2176,9 @@ section {
 .mobile-marquee {
   margin-top: -24px;
 }
+
+@media(max-width: 991px) {
+  #desktop-marque {
+    display: none;
+  }
+}
