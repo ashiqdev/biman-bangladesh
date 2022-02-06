@@ -21,8 +21,8 @@
           .not('.fixed-dark')
           .removeClass('pix-header-fixed');
         $('.fixed-dark').removeClass('bg-fixed-dark');
-        $('.sticky-logo, .header-button-scroll').hide();
-        $('.main-logo, .header-button-default').show();
+        // $('.sticky-logo, .header-button-scroll').hide();
+        // $('.main-logo, .header-button-default').show();
       }
       if ($('.right-menu.modern').length) {
         $('.right-menu.modern')
