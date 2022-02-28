@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 28px;
   color: #797687;
@@ -53,7 +53,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-top: 0;
   font-weight: 600;
   color: #2b2350;
@@ -157,29 +157,29 @@ section {
   padding: 0 15px;
   margin: 0 auto;
 }
-.gutters-10 > [class*='col-'] {
+.gutters-10 > [class*="col-"] {
   padding: 0 5px;
 }
 /* Flaticon icon font: Flaticon Creation date: 13/07/2019 13:19 */
 @font-face {
-  font-family: 'Flaticon';
-  src: url('../fonts/Flaticon.eot');
-  src: url('../fonts/Flaticon.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Flaticon.woff') format('woff'),
-    url('../fonts/Flaticon.ttf') format('truetype'),
-    url('../fonts/Flaticon.svg#Flaticon') format('svg');
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Flaticon.woff") format("woff"),
+    url("../fonts/Flaticon.ttf") format("truetype"),
+    url("../fonts/Flaticon.svg#Flaticon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
-    font-family: 'Flaticon';
-    src: url('../fonts/Flaticon.svg#Flaticon') format('svg');
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
   }
 }
 .fi:before {
   display: inline-block;
-  font-family: 'Flaticon';
+  font-family: "Flaticon";
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -192,10 +192,10 @@ section {
   font-smoothing: antialiased;
 }
 .flaticon-google-play:before {
-  content: '\f100';
+  content: "\f100";
 }
 .flaticon-apple-logo:before {
-  content: '\f101';
+  content: "\f101";
 }
 @media (max-width: 991px) {
   .pix-order-two {
@@ -256,7 +256,7 @@ section {
   }
 }
 .site-header .header-inner .site-nav .menu-wrapper:before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   top: 0;
@@ -373,7 +373,7 @@ section {
   position: relative;
 }
 .site-header .site-main-menu li > a:after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -2px;
   width: 0;
@@ -426,7 +426,7 @@ section {
   padding: 0;
 }
 .site-header .site-main-menu li .sub-menu li.menu-item-has-children:after {
-  content: '\35';
+  content: "\35";
   right: 0px;
   color: #333;
 }
@@ -1123,7 +1123,7 @@ section {
     li.menu-item-has-children
     .sub-menu
     li.menu-item-has-children:after {
-    content: '\33';
+    content: "\33";
     color: #fff;
   }
   .site-header .site-nav .nav-right {
@@ -1222,35 +1222,28 @@ section {
   }
 }
 
-
-
-
 #widget-holder {
   margin-top: 100px;
   min-height: 95vh;
 }
 
-
-
-#display{
-  background:hsla(210,100%,50%,1);
-  height:60px;
-  width:250px;
-  overflow:hidden;
-  position:relative;
+#display {
+  background: hsla(210, 100%, 50%, 1);
+  height: 60px;
+  width: 250px;
+  overflow: hidden;
+  position: relative;
 }
-#text{
-  background:hsla(90,100%,50%,.5);
-  cursor:pointer;
-  overflow:hidden;
-  position:absolute;
-  left:10px;
-  margin-right:10px;
-  top:10px;
+#text {
+  background: hsla(90, 100%, 50%, 0.5);
+  cursor: pointer;
+  overflow: hidden;
+  position: absolute;
+  left: 10px;
+  margin-right: 10px;
+  top: 10px;
   color: #fff;
 }
-
-
 
 .modal {
   /* z-index: 9000000000001 !important; */
@@ -1274,10 +1267,12 @@ section {
   color: #059669;
   /* font-weight: bold; */
 }
-
-#footer {
-  background: #fbf8f8;
+.bg-f {
+  background-image: url("./assets/img/bg-f.jpg");
 }
+/* #footer {
+  background: #fbf8f8;
+} */
 #footer .footer-inner {
   padding: 116px 0 62px;
 }
@@ -1719,7 +1714,7 @@ section {
   margin-bottom: 30px;
 }
 #footer.footer-travel .travel-footer-about-widget .footer-subtitle {
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
   font-size: 20px;
   font-weight: 400;
   color: #f86e6e;
@@ -1832,7 +1827,6 @@ section {
   }
 }
 
-
 .big-m {
   font-size: 38px;
 }
@@ -1941,7 +1935,7 @@ section {
 @media (max-width: 991px) {
   .about-marketing {
     padding-top: 80px;
- }
+  }
 }
 .marketing-about-content {
   padding: 107px 0 120px 70px;
@@ -1949,7 +1943,7 @@ section {
 @media (max-width: 991px) {
   .marketing-about-content {
     padding: 50px 0 80px;
- }
+  }
 }
 .marketing-about-content .section-title {
   margin-bottom: 0;
@@ -1992,39 +1986,38 @@ section {
 @media (max-width: 991px) {
   .mar-about-image {
     margin: 0;
- }
+  }
 }
 @media (max-width: 1200px) {
   .about-content-two .section-title .title {
     font-size: 30px;
     line-height: 40px;
- }
+  }
 }
 @media (max-width: 991px) {
   .about {
     /* padding-top: 76px; */
- }
+  }
   .about-content {
     padding-right: 0;
- }
+  }
   .about-thumb {
     margin-top: 30px;
- }
+  }
   .about-two {
     padding-bottom: 80px;
- }
+  }
   .about-content-two {
     margin-top: 40px;
- }
+  }
   .about-tax {
     padding: 60px 0 80px;
- }
+  }
   .about-tax-content {
     padding-left: 0;
     margin-top: 40px;
- }
+  }
 }
-
 
 .faq-section {
   padding-top: 200px;
@@ -2111,53 +2104,52 @@ section {
 @media (max-width: 991px) {
   #faqs {
     padding: 80px 0 50px;
- }
+  }
   .faq-two {
     margin-bottom: 30px;
- }
+  }
   .faq-section-two {
     padding-top: 65px;
- }
+  }
   .faq-section {
     padding-top: 75px;
- }
+  }
   .faqs {
     /* padding: 80px 0; */
- }
+  }
   .faq-forms {
     padding-top: 78px;
- }
+  }
 }
 @media (max-width: 768px) {
   #faqs {
     padding: 50px 0 20px;
- }
+  }
   .faq .card .card-header h5:before {
     right: 20px;
- }
+  }
   .faq .card .card-header .btn-link {
     padding: 18px 20px;
- }
+  }
 }
 @media (max-width: 576px) {
   .faq .card .card-header .btn-link {
     padding: 18px 30px 18px 20px;
     font-size: 18px;
- }
+  }
   .faq .card .card-header h5:before {
     right: 10px;
- }
+  }
   .faq .card .card-body {
     padding: 5px 20px 25px;
- }
+  }
 }
 
 .footer-widget-mobile {
   display: none;
 }
 
-
-@media(max-width: 991px) {
+@media (max-width: 991px) {
   .footer-widget-one {
     display: none;
   }
@@ -2177,7 +2169,7 @@ section {
   margin-top: -24px;
 }
 
-@media(max-width: 991px) {
+@media (max-width: 991px) {
   #desktop-marque {
     display: none;
   }
